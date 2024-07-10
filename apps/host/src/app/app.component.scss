@@ -1,0 +1,35 @@
+#mainContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+main {
+  margin-left: 350px;
+}
+
+aside {
+  width: 350px;
+  background: royalblue;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li a {
+    color: white;
+    display: block;
+    padding: 10px 25px;
+    transition: all .2s ease;
+
+    &:hover {
+      background-color: darken(royalblue, 10%);
+    }
+  }
+}

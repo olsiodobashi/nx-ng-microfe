@@ -5,6 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@angular-architects/module-federation": "^18.0.4",
     "@angular/animations": "~18.0.0",
     "@angular/common": "~18.0.0",
     "@angular/compiler": "~18.0.0",
@@ -34,6 +35,7 @@
     "@nx/jest": "19.3.1",
     "@nx/js": "19.3.1",
     "@nx/web": "19.3.1",
+    "@nx/webpack": "19.3.1",
     "@nx/workspace": "19.3.1",
     "@schematics/angular": "~18.0.0",
     "@swc-node/register": "~1.9.1",

@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo/data-access-user": [
+        "libs/shared/data-access-user/src/index.ts"
+      ],
+      "@monorepo/user": ["libs/user/src/index.ts"],
+      "microfe-1/Routes": [
+        "apps/microfe-1/src/app/remote-entry/entry.routes.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
